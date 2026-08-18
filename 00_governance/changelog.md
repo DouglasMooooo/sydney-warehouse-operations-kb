@@ -32,3 +32,7 @@ updated: 2026-08-15
 - Verified the sales-order `默认方案 → 坏机SN → Enter → 等待结果返回` lookup workflow and documented the unchanged-full-page failure signal.
 - Corrected the bad-SN query workflow: Enter starts the query; clicking Search immediately afterwards can create overlapping requests and stale, one-SN-behind results.
 - Promoted query synchronisation to a global ERP rule: one trigger at a time, wait for the result grid to finish refreshing, and never use repeated Enter/Search actions.
+- Added the explicitly authorised Sales Order → FHTZD creation and workflow-audit procedure.
+- Recorded that typed display text must be committed by blur/selection before required-field validation can pass.
+- Added verified case SH-2608-00172641 and generated FHTZD 75-FHTZD260806040.
+- Refined safety boundaries so mutation authority is document- and stage-specific while investigation remains read-only by default.
