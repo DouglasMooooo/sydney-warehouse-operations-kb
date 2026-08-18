@@ -22,6 +22,7 @@ updated: 2026-08-18
 - [Ledger cutoff](01_business-rules/ledger-cutoff-rules.md)
 - [ERP overview](02_systems/erp/overview.md)
 - [ERP inventory query](02_systems/erp/inventory-query.md)
+- [ERP sales-order bad-SN query](02_systems/erp/sales-order-bad-sn-query.md)
 - [ERP transfer query](02_systems/erp/transfer-query.md)
 - [FHTZD](02_systems/erp/shipping-notice-fhtzd.md)
 - [WMS writeback](02_systems/wms/erp-writeback.md)

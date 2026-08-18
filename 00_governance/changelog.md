@@ -29,3 +29,6 @@ updated: 2026-08-15
 - Added Opening/Historical Migration Difference as the leading inferred cause of the current Sydney machine residuals.
 - Corrected the audit-cycle ledger cutoff: current Google Ledger data is authoritative through 2026-08-17, while `Prepared` remains physical inventory.
 - Added the 2026-08-17 three-SKU forensic case and explicit SN-level closure criteria.
+- Verified the sales-order `默认方案 → 坏机SN → Enter → 等待结果返回` lookup workflow and documented the unchanged-full-page failure signal.
+- Corrected the bad-SN query workflow: Enter starts the query; clicking Search immediately afterwards can create overlapping requests and stale, one-SN-behind results.
+- Promoted query synchronisation to a global ERP rule: one trigger at a time, wait for the result grid to finish refreshing, and never use repeated Enter/Search actions.
