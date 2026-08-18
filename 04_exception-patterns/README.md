@@ -3,7 +3,7 @@ id: EXC-INDEX
 title: Exception Pattern Index
 type: exception_pattern
 status: active
-updated: 2026-08-15
+updated: 2026-08-18
 ---
 
 # Exception Patterns
@@ -12,4 +12,5 @@ updated: 2026-08-15
 - [WMS writeback failure](reverse-write-failure.md)
 - [Wrong warehouse XSCKD](wrong-warehouse-xsckd.md)
 - [Inventory mismatch](inventory-mismatch.md)
+- [Opening or historical migration difference](opening-balance-mismatch.md)
 
